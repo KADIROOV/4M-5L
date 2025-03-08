@@ -364,7 +364,7 @@ const todos = [
     },
 ];
 
-// function addTodo(newTodo) {
+// export function addTodo(newTodo) {
 //     const namuna = { userId: 0, id: 0, title: 'delectus aut autem', completed: false };
 
 //     const isValid =
@@ -381,11 +381,7 @@ const todos = [
 //     }
 // }
 
-// addTodo({ userId: 56, id: 56, title: 'delectus aut autem', completed: true });
-
-// addTodo({ title: "Invalid todo", completed: false });
-
-// function deleteTodo(id) {
+// export function deleteTodo(id) {
 //     const index = todos.findIndex(todos => todos.id === id);
 
 //     if (index !== -1) {
@@ -395,11 +391,9 @@ const todos = [
 //         console.log(`Xatolik: ID ${id} topilmadi.`);
 //     }
 // }
-// deleteTodo(2);
-// console.log(todos);
 
 
-// function updateTodo(id, newData) {
+//export function updateTodo(id, newData) {
 //     const todo = todos.find(todo => todo.id === id);
 
 //     if (todo) {
@@ -409,7 +403,3 @@ const todos = [
 //         console.log(`Xatolik: ID ${id} topilmadi.`);
 //     }
 // }
-
-// updateTodo(2, { title: "Clean the kitchen", completed: false });
-
-// console.log(todos);
